@@ -1,0 +1,17 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "./src/index.ts",
+      "desc": "Run the API server",
+      "allow": ["net"],
+      "unstable": true
+    },
+    "test": {
+      "cmd": "./test/generateData.ts",
+      "desc": "Generate data for testing purposes",
+      "allow": ["net"],
+      "watch": false
+    }
+  }
+}
